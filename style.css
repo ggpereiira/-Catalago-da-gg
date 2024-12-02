@@ -13,7 +13,7 @@ body{
     justify-content: center;
 }
 header{
-    color: bisque;
+    color: purple;
     font-size: 40px;
     border-bottom: solid 3px black;
     padding: 20px;
@@ -23,4 +23,23 @@ header{
 }
 h1{
     font-size: 35px;
+}
+.catetogia{
+    background: plum;
+    padding-left: 20px;
+    padding-right: 20px;
+    margin-top: 50px;
+}
+.categoria-videos{
+    display: flex;
+    overflow-x: auto;
+    gap: 10px;
+}
+.categoria-videos img{
+    height: 200px;
+    opacity: 0.5;
+}
+.categoria-videos img:hover{
+    opacity: 1.0;
+    border: 3px solid blueviolet;
 }
